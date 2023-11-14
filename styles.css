@@ -35,6 +35,7 @@
   border: 1px solid grey;
 	color:grey;
   border-radius: 20px;
+	letter-spacing: 2px;
 }
 
 .container .result{
@@ -43,4 +44,5 @@
 	margin-top:20px;
 	color:grey;
 	font-family:'Fira Code Retina';
+	letter-spacing: 2px;
 }
