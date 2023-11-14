@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+
+.base {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  overflow: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+	height: 50px;
+	min-height: 50px;
+	max-height:500px;
+	border: 1px solid grey;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container .search {
+  width: 100%;
+  height: 50px;
+	padding:5px 30px;
+	font-size:30px;
+	line-height: 40px;
+  border: 1px solid grey;
+	color:grey;
+  border-radius: 20px;
+}
+
+.container .result{
+	text-align: center;
+	font-size:60px;
+	margin-top:20px;
+	color:grey;
+	font-family:'Fira Code Retina';
+}
